@@ -21,5 +21,12 @@ funkcji console.log powinno dawać efekt podobny do poniższego:
 
  # # # #
 
-Po utworzeniu programu generującego taki wzór zdefiniuj wiązanie size = 8 i tak zmodyfikuj program, aby dla dowolnej wartości tego wiązania drukował planszę o określonych wymiarach.
+Po utworzeniu programu generującego taki wzór zdefiniuj wiązanie size = 8 i tak zmodyfikuj program, 
+aby dla dowolnej wartości tego wiązania drukował planszę o określonych wymiarach.
 */
+let liczbaHasz = 5;
+
+for (let i = 0; i < liczbaHasz; i++){
+    console.log(i, `# # # #`);
+    console.log(i, ` # # # #`);
+}
