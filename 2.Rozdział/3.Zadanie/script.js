@@ -15,7 +15,7 @@
 // function countBs(a) {
 //     let counter = 0;
 //     for (let i = 0; i < a.length; i++) {
-//         if (a[i] === "B") {
+//         if (a[i] === "B") { // a[i] to element lancucha
 //             counter++;
 //         }
 //     }
@@ -23,13 +23,13 @@
 // }
 // console.log(countBs("countBs"));
 
-function countBs(a) {
+function countChar(str, ch) {
        let counter = 0;
-    for (let i = 0; i < a.length; i++) {
-        if (a[i] === "B") {
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] === ch) { 
             counter++;
         }
     }
     return counter;
 }
-console.log(countBs("countBs"));
+console.log(countChar("countChar", "C"));
