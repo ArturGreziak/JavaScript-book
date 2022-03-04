@@ -1,0 +1,1 @@
+![enter image description here](https://cdn.discordapp.com/attachments/674964991853592586/949316425254834256/Obiekty.png)
