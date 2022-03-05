@@ -4,19 +4,20 @@
 // Pierwsza niech pobiera tablicę jako argument i zwraca nową tablicę z tymi samymi elementami, tylko w odwrotnej kolejności.
 
 // Tutaj kod pierwszej funkcji
-function reverseArray(arr){
+function reverseArray(arr) {
     const tab = [];
-    for (let i = arr; i > 0; i--) {
-       tab.push(i);
+    for (let i = arr.length -1; i >= 0; i--) {
+        tab.push(arr[i]);
     }
-    return arr;
+    return tab;
 }
 console.log(reverseArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+console.log(reverseArray([5, 6, 7, 8, 9]));
 // |---------------------------------------------------------------------------------------------------------------------------------------|
 
 // Natomiast metoda reverseArrayInPlace niech robi to samo co metoda reverse, tzn. niech modyfikuje tablicę przekazaną jej jako argument.
 
 // Tutaj kod drugiej funkcji
-function reverseArrayInPlace(){
+// function reverseArrayInPlace(){
 
-}
+// }
