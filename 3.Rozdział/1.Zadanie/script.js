@@ -16,12 +16,21 @@
 // }
 // console.log(range(1,10))
 
-function sum(arr) {
-    let suma = 0;
-    for (let i = 0; i < arr.length; i++) {
-        suma += arr[i];
-    }
-    return suma;
-}
+// function sum(arr) {
+//     let suma = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         suma += arr[i];
+//     }
+//     return suma;
+// }
 
-console.log(sum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+// console.log(sum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+
+function range(start, end) {
+    const tab = [];
+    for (let i = start; i <= end; i++){
+          tab.push(i)
+    }
+    return tab;
+}
+console.log(range(1,10))
