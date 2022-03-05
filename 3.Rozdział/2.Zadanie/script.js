@@ -1,7 +1,22 @@
 // Odwracanie tablicy
-// Tablice mają metodę o nazwie reverse, która odwraca kolejność znajdujących się w nich elementów.Napisz dwie funkcje o nazwach reverseArray i reverseArrayInPlace.
+
+// Napisz dwie funkcje o nazwach reverseArray i reverseArrayInPlace. W żadnej z tych dwóch metod nie możesz używać standardowej metody reverse .
 // Pierwsza niech pobiera tablicę jako argument i zwraca nową tablicę z tymi samymi elementami, tylko w odwrotnej kolejności.
-// Natomiast metoda reverseArrayInPlacereverseArrayInPlace niech robi to samo co metoda reverse, 
-// tzn.niech modyfikuje tablicę przekazaną jej jako argument.W żadnej z tych dwóch metod nie możesz używać standardowej metody reverse.
-// Wracając myślami do uwag na temat efektów ubocznych i funkcji czystych opisanych w podrozdziale 
-// „Funkcje i efekty uboczne” w rozdziale 3., jak myślisz, która wersja z tych dwóch będzie bardziej przydatna ? Która będzie bardziej wydajna ?
+
+// Tutaj kod pierwszej funkcji
+function reverseArray(arr){
+    const tab = [];
+    for (let i = arr; i > 0; i--) {
+       tab.push(i);
+    }
+    return arr;
+}
+console.log(reverseArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+// |---------------------------------------------------------------------------------------------------------------------------------------|
+
+// Natomiast metoda reverseArrayInPlace niech robi to samo co metoda reverse, tzn. niech modyfikuje tablicę przekazaną jej jako argument.
+
+// Tutaj kod drugiej funkcji
+function reverseArrayInPlace(){
+
+}
