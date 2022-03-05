@@ -26,8 +26,9 @@ function sum(arr) {
 
 function range(start, end, step = 1) {
     const arr = [];
-    for (let i = start; i <= end; i += step) {
+    for (let i = start; i <= end; i -= step) {
         arr.push(i)
     }
     return arr;
 }
+console.log(range(1, 10, -1))
