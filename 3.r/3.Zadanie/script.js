@@ -7,11 +7,6 @@
 // Następnie napisz funkcję o nazwie countChar działającą podobnie jak countBs, tylko przyjmującą dodatkowy argument określający znak, którego wystąpienia mają być policzone.
 // Przepisz funkcję countBs, aby wykorzystać tę nową funkcję.
 
-// function countBs(a){
-//     const result = a.split("");
-//     return result.filter(el => el === "B");
-// }
-// console.log(countBs("countBsB"));
 // function countBs(a) {
 //     let counter = 0;
 //     for (let i = 0; i < a.length; i++) {
